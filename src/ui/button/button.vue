@@ -13,6 +13,7 @@ export const types = [
   "info",
   "link",
   "dark",
+  "default",
 ];
 export const sizes = ["small", "normal", "medium", "large"];
 export default {

@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "analyz": "npm_config_report=true vue-cli-service build",
+    "cat-design-3": "npm_build_lib=true vue-cli-service build --target lib --name cat-design3 --formats umd ./src/ui/index.js --dest cat-design3"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -20,12 +22,14 @@
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "bulma": "^0.9.4",
+    "cat-design3": "^1.0.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.0.3",
     "prettier": "^2.4.1",
     "sass": "^1.32.7",
-    "sass-loader": "^12.0.0"
+    "sass-loader": "^12.0.0",
+    "webpack-bundle-analyzer": "^4.6.1"
   }
 }

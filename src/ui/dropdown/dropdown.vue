@@ -52,18 +52,22 @@ export default {
   },
 };
 </script>
-<style lang="sass" scoped>
-.dropdown-menu
-  display: block
-  opacity: 0
-  top: 0
-  z-index: -1
-  transition: all 0.2s linear
-  &.is-active
-      opacity: 1
-      top: 100%
-      z-index: 1
-      transition: all 0.2s linear
-a.dropdown-item.is-active
-  background-color: #00d1b2
+<style lang="scss" scoped>
+.dropdown-menu {
+  display: block;
+  opacity: 0;
+  top: 0;
+  z-index: -1;
+  transition: all 0.2s linear;
+
+  &.is-active {
+    opacity: 1;
+    top: 100%;
+    z-index: 1;
+    transition: all 0.2s linear;
+  }
+}
+a.dropdown-item.is-active {
+  background-color: #00d1b2;
+}
 </style>

@@ -1,0 +1,35 @@
+{
+  "name": "cat-design3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/cat-design3.umd.js",
+  "module": "dist/cat-design3.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuchangjunjx/cat-design-3.git"
+  },
+  "homepage": "https://github.com/xuchangjunjx/cat-design-3",
+  "scripts": {
+    "build": "rollup --config ./rollup.config.js"
+  },
+  "keywords": [
+    "vue",
+    "ui",
+    "bulma"
+  ],
+  "author": "xubowen",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.3",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "rollup": "^2.79.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-vue": "^6.0.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.19.3",
+    "bulma": "^0.9.4"
+  }
+}

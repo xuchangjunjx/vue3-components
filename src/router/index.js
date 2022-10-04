@@ -24,6 +24,16 @@ const routes = [
     name: "IconTest",
     component: () => import("@/views/IconTest.vue"),
   },
+  {
+    path: "/modal-test",
+    name: "ModalTest",
+    component: () => import("@/views/ModalTest.vue"),
+  },
+  {
+    path: "/message-test",
+    name: "MessageTest",
+    component: () => import("@/views/MessageTest.vue"),
+  },
 ];
 
 const router = createRouter({

@@ -1,6 +1,5 @@
 <template>
   <div>
-    1{{ value }}2
     <Dropdown @on-change="selected" v-model="value">
       <Button
         >hello
@@ -11,7 +10,6 @@
         <DropdownItem name="bb">bb</DropdownItem>
       </template>
     </Dropdown>
-    <Button @on-click="value = 'aa'"></Button>
   </div>
 </template>
 <script>
